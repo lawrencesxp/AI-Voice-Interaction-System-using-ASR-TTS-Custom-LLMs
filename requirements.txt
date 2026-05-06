@@ -1,0 +1,29 @@
+# Core audio
+sounddevice
+soundfile
+numpy
+
+# ASR
+faster-whisper
+
+# LLM - NOTE: install separately with CUDA support (see README)
+# llama-cpp-python
+
+# TTS - Kokoro
+kokoro-onnx
+onnxruntime
+
+# TTS - XTTS-v2
+TTS
+
+# Evaluation
+jiwer
+
+# Model download
+huggingface_hub
+
+# Web UI
+gradio
+
+# PyTorch (install first, see README for CUDA version)
+# torch torchaudio

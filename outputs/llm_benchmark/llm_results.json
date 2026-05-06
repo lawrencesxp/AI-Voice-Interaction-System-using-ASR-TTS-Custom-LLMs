@@ -1,0 +1,76 @@
+{
+  "qwen2.5-0.5b": {
+    "model": "qwen2.5-0.5b",
+    "quantization": "Q4_K_M",
+    "repo": "Qwen/Qwen2.5-0.5B-Instruct-GGUF",
+    "load_time_s": 0.538581371307373,
+    "avg_tokens_per_sec": 40.575175894204584,
+    "avg_response_time_s": 2.6370485623677573,
+    "avg_completion_tokens": 120.0,
+    "gpu_layers": -1,
+    "context_size": 2048,
+    "details": [
+      {
+        "prompt": "What is deep learning in one sentence?",
+        "response": "Deep learning is a subset of machine learning that uses artificial neural networks with multiple layers to learn complex relationships and patterns from data.",
+        "prompt_tokens": 52,
+        "completion_tokens": 25,
+        "total_time_s": 0.9464507102966309,
+        "tokens_per_sec": 26.414476451884802
+      },
+      {
+        "prompt": "Explain the difference between CPU and GPU in simple terms.",
+        "response": "The CPU (Central Processing Unit) is the main processing unit that performs computations, while the GPU (Graphics Processing Unit) is specialized for handling graphics and visual tasks. GPUs are designed to accelerate the rendering of images and animations by processing pixel by pixel data, whereas CPUs are designed to execute instructions sequentially. GPUs are more powerful than CPUs but slower, and GPUs are typically used for tasks like rendering, animation, and video processing, whereas CPUs are more suited for tasks like data analysis, scientific computing, and general processing of raw data.",
+        "prompt_tokens": 56,
+        "completion_tokens": 106,
+        "total_time_s": 2.286348819732666,
+        "tokens_per_sec": 46.36212947261222
+      },
+      {
+        "prompt": "What are the main components of a voice interaction system?",
+        "response": "The main components of a voice interaction system include:\n\n1. **Audio Processing and Transcription**: This involves converting audio to text and vice versa, allowing the system to understand and transcribe user inputs.\n\n2. **Voice Recognition**: This uses algorithms to identify the specific sounds made by the user, which are then converted to text.\n\n3. **Natural Language Processing**: This involves understanding and interpreting human language, which is crucial for the system to understand and respond to user queries effectively.\n\n4. **Text-to-Speech**: This converts text into speech to make it audible to the user.\n\n5. **User Interface**: This includes the display of information to the user, which is essential for making the interaction intuitive and user-friendly.\n\n6. **Voice Command Processing**: This allows the system to recognize and respond to voice commands, which are commands sent from the user.\n\n7. **Feedback and Decision Making**: This involves providing information or prompting the user to respond in a way that is useful for the system's decision-making process.\n\nThese components work together to create a comprehensive voice interaction system that can understand, respond to, and provide useful information to users.",
+        "prompt_tokens": 55,
+        "completion_tokens": 229,
+        "total_time_s": 4.678346157073975,
+        "tokens_per_sec": 48.94892175811672
+      }
+    ]
+  },
+  "qwen2.5-1.5b": {
+    "model": "qwen2.5-1.5b",
+    "quantization": "Q4_K_M",
+    "repo": "Qwen/Qwen2.5-1.5B-Instruct-GGUF",
+    "load_time_s": 1.4192051887512207,
+    "avg_tokens_per_sec": 20.22331105525653,
+    "avg_response_time_s": 5.213827292124431,
+    "avg_completion_tokens": 115.66666666666667,
+    "gpu_layers": -1,
+    "context_size": 2048,
+    "details": [
+      {
+        "prompt": "What is deep learning in one sentence?",
+        "response": "Deep learning is a subset of machine learning that uses neural networks with multiple layers to learn and extract features from data.",
+        "prompt_tokens": 52,
+        "completion_tokens": 23,
+        "total_time_s": 1.600008249282837,
+        "tokens_per_sec": 14.374925885731631
+      },
+      {
+        "prompt": "Explain the difference between CPU and GPU in simple terms.",
+        "response": "A CPU, or Central Processing Unit, is the main processing unit of a computer. It does all the heavy lifting, like running programs, managing tasks, and processing data. It's the brain of the computer.\n\nA GPU, or Graphics Processing Unit, is specialized hardware that focuses on tasks involving a lot of parallel processing, like rendering graphics. It's like a supercharged CPU designed to handle complex visual tasks quickly.\n\nSo in simple terms, a CPU is for general tasks, while a GPU is for high-speed rendering and graphics.",
+        "prompt_tokens": 56,
+        "completion_tokens": 107,
+        "total_time_s": 4.5809547901153564,
+        "tokens_per_sec": 23.357576073634544
+      },
+      {
+        "prompt": "What are the main components of a voice interaction system?",
+        "response": "A voice interaction system typically includes several main components:\n\n1. **Microphone**: This captures the user's voice input.\n2. **Speaker**: This converts the voice input into digital data for processing.\n3. **Speech Recognition Engine**: This translates spoken words into text.\n4. **Natural Language Understanding (NLU)**: This interprets the meaning behind the text to understand the user's intent.\n5. **User Interface**: This allows the user to interact with the system, often through a display or touch interface.\n6. **Dialog Management**: This helps in managing the conversation and maintaining context throughout the interaction.\n7. **Response Generation**: This converts the processed information into an appropriate response.\n8. **Output**: This generates and delivers the final output, which could be spoken aloud or displayed on a screen.\n9. **Database or Knowledge Base**: This stores the system's knowledge or information.\n10. **Network Interface**: This enables the system to connect to external systems or servers.\n\nThese components work together to enable the interaction between the user and the system through voice inputs.",
+        "prompt_tokens": 55,
+        "completion_tokens": 217,
+        "total_time_s": 9.460518836975098,
+        "tokens_per_sec": 22.93743120640342
+      }
+    ]
+  }
+}

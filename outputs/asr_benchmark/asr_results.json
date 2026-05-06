@@ -1,0 +1,108 @@
+{
+  "whisper-tiny": {
+    "model": "whisper-tiny",
+    "device": "cpu",
+    "compute_type": "int8",
+    "load_time_s": 0.8572731018066406,
+    "avg_wer": 0.01818181818181818,
+    "avg_rtf": 0.2213421609594697,
+    "total_inference_time_s": 4.78335165977478,
+    "total_audio_duration_s": 21.610666666666667,
+    "num_samples": 5,
+    "details": [
+      {
+        "reference": "The quick brown fox jumps over the lazy dog.",
+        "transcript": "The quick brown fox jumps over the lazy dog.",
+        "wer": 0.0,
+        "inference_time": 0.9374921321868896,
+        "audio_duration": 2.816,
+        "rtf": 0.33291624012318527
+      },
+      {
+        "reference": "Artificial intelligence is transforming how we interact with technology.",
+        "transcript": "Artificial intelligence is transforming how we interact with technology.",
+        "wer": 0.0,
+        "inference_time": 0.95560622215271,
+        "audio_duration": 4.736,
+        "rtf": 0.20177496244778506
+      },
+      {
+        "reference": "Deep learning models require significant computational resources for training.",
+        "transcript": "Deep learning models require significant computational resources for training.",
+        "wer": 0.0,
+        "inference_time": 0.958437442779541,
+        "audio_duration": 4.992,
+        "rtf": 0.19199468004397857
+      },
+      {
+        "reference": "Voice assistants have become an integral part of modern smart devices.",
+        "transcript": "Voice assistance have become an integral part of modern smart devices.",
+        "wer": 0.09090909090909091,
+        "inference_time": 0.988339900970459,
+        "audio_duration": 4.586666666666667,
+        "rtf": 0.21548108306041983
+      },
+      {
+        "reference": "Neural networks can learn complex patterns from large amounts of data.",
+        "transcript": "Neural networks can learn complex patterns from large amounts of data.",
+        "wer": 0.0,
+        "inference_time": 0.9434759616851807,
+        "audio_duration": 4.48,
+        "rtf": 0.21059731287615638
+      }
+    ]
+  },
+  "whisper-base": {
+    "model": "whisper-base",
+    "device": "cpu",
+    "compute_type": "int8",
+    "load_time_s": 0.5744636058807373,
+    "avg_wer": 0.0,
+    "avg_rtf": 0.393818449762237,
+    "total_inference_time_s": 8.510679244995117,
+    "total_audio_duration_s": 21.610666666666667,
+    "num_samples": 5,
+    "details": [
+      {
+        "reference": "The quick brown fox jumps over the lazy dog.",
+        "transcript": "The quick brown fox jumps over the lazy dog.",
+        "wer": 0.0,
+        "inference_time": 1.7317354679107666,
+        "audio_duration": 2.816,
+        "rtf": 0.6149628792296756
+      },
+      {
+        "reference": "Artificial intelligence is transforming how we interact with technology.",
+        "transcript": "Artificial intelligence is transforming how we interact with technology.",
+        "wer": 0.0,
+        "inference_time": 1.6878437995910645,
+        "audio_duration": 4.736,
+        "rtf": 0.3563859374136538
+      },
+      {
+        "reference": "Deep learning models require significant computational resources for training.",
+        "transcript": "Deep learning models require significant computational resources for training.",
+        "wer": 0.0,
+        "inference_time": 1.7019476890563965,
+        "audio_duration": 4.992,
+        "rtf": 0.34093503386546403
+      },
+      {
+        "reference": "Voice assistants have become an integral part of modern smart devices.",
+        "transcript": "Voice assistants have become an integral part of modern smart devices.",
+        "wer": 0.0,
+        "inference_time": 1.676530122756958,
+        "audio_duration": 4.586666666666667,
+        "rtf": 0.3655225558336391
+      },
+      {
+        "reference": "Neural networks can learn complex patterns from large amounts of data.",
+        "transcript": "Neural networks can learn complex patterns from large amounts of data.",
+        "wer": 0.0,
+        "inference_time": 1.7126221656799316,
+        "audio_duration": 4.48,
+        "rtf": 0.382281733410699
+      }
+    ]
+  }
+}

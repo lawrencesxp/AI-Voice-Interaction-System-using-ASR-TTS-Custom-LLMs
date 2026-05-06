@@ -1,0 +1,35 @@
+{
+  "kokoro": {
+    "model": "Kokoro-82M",
+    "load_time_s": 6.131185054779053,
+    "avg_rtf": 0.5711772630670259,
+    "voice_cloning": false,
+    "num_samples": 3,
+    "details": [
+      {
+        "text": "The quick brown fox jumps over the lazy dog.",
+        "synth_time_s": 1.871572494506836,
+        "audio_duration_s": 2.816,
+        "rtf": 0.6646209142424844,
+        "output_file": "D:\\DLES_proj2\\outputs\\tts_benchmark\\kokoro_sample_0.wav",
+        "sample_rate": 24000
+      },
+      {
+        "text": "Artificial intelligence is transforming how we interact with technology.",
+        "synth_time_s": 2.490781307220459,
+        "audio_duration_s": 4.736,
+        "rtf": 0.5259251070989145,
+        "output_file": "D:\\DLES_proj2\\outputs\\tts_benchmark\\kokoro_sample_1.wav",
+        "sample_rate": 24000
+      },
+      {
+        "text": "Deep learning models require significant computational resources for training.",
+        "synth_time_s": 2.6107449531555176,
+        "audio_duration_s": 4.992,
+        "rtf": 0.522985767859679,
+        "output_file": "D:\\DLES_proj2\\outputs\\tts_benchmark\\kokoro_sample_2.wav",
+        "sample_rate": 24000
+      }
+    ]
+  }
+}
